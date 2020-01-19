@@ -1,0 +1,44 @@
+* {
+    box-sizing: border-box;
+}
+
+.ulfooter {
+    position: absolute;
+    top: 50%;
+    width: 800px;
+    height: 200px; 
+    left: 50%;
+    margin-left: -400px;
+    margin-top: -130px;
+}
+
+.ulfooter > .lifooter {
+    width: 25%;
+    list-style-type: none;
+    position: absolute;
+    top: 0;
+    padding: 20px;
+    height: 200px; 
+    opacity: 0;
+    padding-top: 40px;
+    text-align: center;
+    transition: 1s opacity; 
+}
+
+.active {
+    opacity: 1;
+}
+
+.pfooter {
+    font-family: sans-serif;
+    font-size: 13px;
+color: #646566;
+    line-height: 1.5em;
+}
+
+strong { 
+color: #fff;
+font-weight: 700;
+    font-size: 60px; 
+line-height: 100px; 
+}
