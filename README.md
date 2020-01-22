@@ -8,6 +8,4 @@ CSS
 
 Frameworks:
 Bootstrap
-
-Bibliotecas:
 JQuery.
